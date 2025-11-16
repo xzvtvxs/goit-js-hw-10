@@ -1,0 +1,52 @@
+
+.timer {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.value {
+    font-size: 48px;
+    font-weight: 300;
+    font-family: "Arial", sans-serif;
+    line-height: 1;
+}
+
+
+.label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #666;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#datetime-picker {
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+
+button[data-start] {
+    padding: 8px 16px;
+    margin-left: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[data-start]:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
